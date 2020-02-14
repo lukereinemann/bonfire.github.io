@@ -1,0 +1,270 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#main {
+
+  border: 1px dotted black;
+}
+
+._jjzlb {
+    position: relative;
+    padding-top: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 1px;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /* Optional centered background */
+    background-position: center;
+}
+
+h1 {
+  margin: 0;
+    display: inline-block;
+    color: white;
+    font-family: Hiragino Kaku gothic StdN;
+    margin-right: 550px;
+}
+.img{
+    float:left;
+}
+
+.h2{
+    left: 50px;
+    color:white;
+    font-family: Hiragino Kaku gothic StdN;
+}
+
+body {
+  background-image: url('800px_COLOURBOX30869576.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 327px;
+  left: 33px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Hiragino Kaku gothic StdN;
+  background-color: black;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Hiragino Kaku gothic StdN;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #4CAF50;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  left: 695px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+button {
+ background-color: #bbb;
+ padding: .5em;
+ -moz-border-radius: 5px;
+ -webkit-border-radius:5px;
+ border-radius: 6px;
+ color: #fff;
+ font-family: 'Hiragino Kaku gothic StdN';
+ font-size: 20px;
+ text-decoration: none;
+ border: none;
+ box-shadow: 0px 0px 1px #777;
+ height: 50px;
+}
+
+.container >*{
+    display: inline-block;
+}
+
+body {
+    font:12px arial;
+    color: #222;
+    text-align:center;
+    padding:35px; }
+  
+form, p, span {
+    margin:0;
+    padding:0; }
+  
+input { font:12px arial; }
+  
+a {
+    color:#0000FF;
+    text-decoration:none; }
+  
+    a:hover { text-decoration:underline; }
+  
+#wrapper, #loginform {
+    margin:0 auto;
+    padding-bottom:25px;
+    background:#EBF4FB;
+    width:504px;
+    border:1px solid #ACD8F0; }
+  
+#loginform { padding-top:18px; }
+  
+    #loginform p { margin: 5px; }
+  
+#chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:270px;
+    width:430px;
+    border:1px solid #ACD8F0;
+    overflow:auto; }
+  
+#usermsg {
+    width:395px;
+    border:1px solid #ACD8F0; }
+  
+#submit { width: 60px; }
+  
+.error { color: #ff0000; }
+  
+#menu { padding:12.5px 25px 12.5px 25px; }
+  
+.welcome { float:left; }
+  
+.logout { float:right; }
+  
+.msgln { margin:0 0 2px 0; }
+
+#img29{
+    margin-top: 50px;
+    margin-left:10px; 
+    width:233.5px; 
+    height: 175px;
+    border-radius: 50%;
+
+}
+
+h4{
+    color: white;
+    font-family: Hiragino Kaku gothic StdN;
+    font-size: 15px;
+}
+
+#img7{
+    margin-left:100px; 
+    width:233.5px; 
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+#img6{
+    margin-left:100px; 
+    width:233.5px; 
+    height: 175px;
+    border-radius: 50%;
+        margin-top: 50px;
+
+}
